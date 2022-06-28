@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+HTML,
+body {
+  background: #010d0c;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  -webkit-transition: all 1s ease;
+
+  color: white;
+}
+
+@font-face {
+  font-family: "Adistro";
+  src: url("../../public/fonts/Adistro.otf");
+}
